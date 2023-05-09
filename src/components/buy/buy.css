@@ -1,0 +1,23 @@
+.button-cont {
+    display: flex;
+    justify-content: center;
+
+}
+
+.button-cont button {
+    width: 50%;
+    padding: 5px;
+    background: rgb(0,45,73);
+    background: linear-gradient(90deg, rgba(0,45,73,1) 0%, rgba(0,65,195,1) 30%, rgba(0,65,195,1) 70%, rgba(0,45,73,1) 100%);
+    color: white;
+    border: none;
+    box-shadow: 4px 4px 8px 0px rgb(34 60 80 / 50%);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.button-cont button:active {
+    transform: translate(2px, 2px);
+    transition: 0.3s;
+    color: cadetblue;
+}
